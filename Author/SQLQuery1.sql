@@ -1,0 +1,1 @@
+SELECT * FROM [authorDetails].[dbo].[AUTHOR];
