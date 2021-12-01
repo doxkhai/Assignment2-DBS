@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Author.Properties
+namespace REVIEW_CRITERIA.Properties
 {
 
 

@@ -1,0 +1,11 @@
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\bin\Debug\REVIEW_CRITERIA.exe.config
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\bin\Debug\REVIEW_CRITERIA.exe
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\bin\Debug\REVIEW_CRITERIA.pdb
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\obj\Debug\REVIEW_CRITERIA.csproj.AssemblyReference.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\obj\Debug\REVIEW_CRITERIA.csproj.SuggestedBindingRedirects.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\obj\Debug\REVIEW_CRITERIA.Form1.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\obj\Debug\REVIEW_CRITERIA.Properties.Resources.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\obj\Debug\REVIEW_CRITERIA.csproj.GenerateResource.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\obj\Debug\REVIEW_CRITERIA.csproj.CoreCompileInputs.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\obj\Debug\REVIEW_CRITERIA.exe
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW_CRITERIA\obj\Debug\REVIEW_CRITERIA.pdb
