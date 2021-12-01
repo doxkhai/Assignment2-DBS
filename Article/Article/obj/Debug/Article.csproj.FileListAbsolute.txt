@@ -1,0 +1,11 @@
+D:\Github\Assignment2-DBS\Article\Article\bin\Debug\Article.exe.config
+D:\Github\Assignment2-DBS\Article\Article\bin\Debug\Article.exe
+D:\Github\Assignment2-DBS\Article\Article\bin\Debug\Article.pdb
+D:\Github\Assignment2-DBS\Article\Article\obj\Debug\Article.csproj.AssemblyReference.cache
+D:\Github\Assignment2-DBS\Article\Article\obj\Debug\Article.csproj.SuggestedBindingRedirects.cache
+D:\Github\Assignment2-DBS\Article\Article\obj\Debug\Article.Form1.resources
+D:\Github\Assignment2-DBS\Article\Article\obj\Debug\Article.Properties.Resources.resources
+D:\Github\Assignment2-DBS\Article\Article\obj\Debug\Article.csproj.GenerateResource.cache
+D:\Github\Assignment2-DBS\Article\Article\obj\Debug\Article.csproj.CoreCompileInputs.cache
+D:\Github\Assignment2-DBS\Article\Article\obj\Debug\Article.exe
+D:\Github\Assignment2-DBS\Article\Article\obj\Debug\Article.pdb
