@@ -1,0 +1,11 @@
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\bin\Debug\Ban_Bien_Tap.exe.config
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\bin\Debug\Ban_Bien_Tap.exe
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\bin\Debug\Ban_Bien_Tap.pdb
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.csproj.AssemblyReference.cache
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.csproj.SuggestedBindingRedirects.cache
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.Form1.resources
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.Properties.Resources.resources
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.csproj.GenerateResource.cache
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.csproj.CoreCompileInputs.cache
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.exe
+D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.pdb
