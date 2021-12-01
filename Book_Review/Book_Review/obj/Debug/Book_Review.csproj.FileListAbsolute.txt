@@ -1,0 +1,11 @@
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\bin\Debug\Book_Review.exe.config
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\bin\Debug\Book_Review.exe
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\bin\Debug\Book_Review.pdb
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\obj\Debug\Book_Review.csproj.AssemblyReference.cache
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\obj\Debug\Book_Review.csproj.SuggestedBindingRedirects.cache
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\obj\Debug\Book_Review.Form1.resources
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\obj\Debug\Book_Review.Properties.Resources.resources
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\obj\Debug\Book_Review.csproj.GenerateResource.cache
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\obj\Debug\Book_Review.csproj.CoreCompileInputs.cache
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\obj\Debug\Book_Review.exe
+D:\Github\Assignment2-DBS\Book_Review\Book_Review\obj\Debug\Book_Review.pdb
