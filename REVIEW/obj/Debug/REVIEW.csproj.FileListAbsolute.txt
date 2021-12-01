@@ -1,0 +1,11 @@
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\bin\Debug\REVIEW.exe.config
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\bin\Debug\REVIEW.exe
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\bin\Debug\REVIEW.pdb
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\obj\Debug\REVIEW.csproj.AssemblyReference.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\obj\Debug\REVIEW.csproj.SuggestedBindingRedirects.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\obj\Debug\REVIEW.Form1.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\obj\Debug\REVIEW.Properties.Resources.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\obj\Debug\REVIEW.csproj.GenerateResource.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\obj\Debug\REVIEW.csproj.CoreCompileInputs.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\obj\Debug\REVIEW.exe
+C:\Users\KHAI\Documents\Assignment2-DBS\REVIEW\obj\Debug\REVIEW.pdb
