@@ -22,7 +22,6 @@ CREATE TABLE ARTICLE(
     review_ID BIGINT,
     UNIQUE(file_bb, article_ID, cAuthor_ID,review_ID),
     PRIMARY KEY(article_ID),
-	CONSTRAINT FK_cAuthor
     FOREIGN KEY(cAuthor_ID) 
 		REFERENCES AUTHOR(author_ID)
 ); 
@@ -44,13 +43,6 @@ CREATE TABLE REVIEWER(
     PRIMARY KEY(reviewer_ID)
 ); 
 
-CREATE TABLE CONTACT_AUTHOR(
-author_ID BIGINT UNIQUE,
-CONSTRAINT FK_author
-FOREIGN KEY (author_ID) 
-	REFERENCES AUTHOR(author_ID)
-);
-
 CREATE TABLE NGUOI_PHAN_BIEN(
 author_ID BIGINT,
 reviewer_ID BIGINT,
@@ -63,19 +55,14 @@ FOREIGN KEY(reviewer_ID)
 
 CREATE TABLE REVIEW( 			
 	review_ID BIGINT, 
-	result VARCHAR(20) NOT NULL CHECK (result IN('minor revision', 'major revision', 'acceptance','rejection')),
-	noti_date date NOT NULL, 
-	other_detail text , 
-	e_note text, a_note text,
     article_ID BIGINT NOT NULL,
-    UNIQUE(article_ID,review_ID),
+    UNIQUE(article_ID),
     PRIMARY KEY(review_ID),
     FOREIGN KEY(article_ID) 
 		REFERENCES ARTICLE(article_ID)
 );
 ALTER TABLE ARTICLE 
-ADD CONSTRAINT FK_review
-	FOREIGN KEY(review_ID) 
+ADD FOREIGN KEY(review_ID) 
 		REFERENCES REVIEW(review_ID);
 
 CREATE TABLE REVIEW_CRITERIA (		
@@ -92,7 +79,6 @@ CREATE TABLE BAN_BIEN_TAP (
     reviewer_ID BIGINT,
     UNIQUE(ban_bien_tap_ID, ban_bien_tap_email,reviewer_ID),
     PRIMARY KEY(ban_bien_tap_ID),
-	CONSTRAINT FK_reviewer
     FOREIGN KEY(reviewer_ID)
 		REFERENCES REVIEWER(reviewer_ID)
 );
@@ -102,13 +88,11 @@ CREATE TABLE UPDATE_STATUS (
 	result varchar(20) NOT NULL CHECK( result IN('posted','published','reviewing','review feedback','review completed')),
 	ban_bien_tap_ID BIGINT NOT NULL,
 	article_ID BIGINT NOT NULL,
-    UNIQUE(ban_bien_tap_ID, article_ID),
-	CONSTRAINT FK_ban_bien_tap
+    UNIQUE(article_ID),
 	FOREIGN KEY (ban_bien_tap_ID) 
 		REFERENCES BAN_BIEN_TAP (ban_bien_tap_ID)
         ON DELETE NO ACTION
         ON UPDATE CASCADE,
-	CONSTRAINT FK_article
 	FOREIGN KEY (article_ID) 
 		REFERENCES ARTICLE (article_ID)
         ON DELETE CASCADE
@@ -170,8 +154,12 @@ CREATE TABLE BOOK_REVIEW (
 
 
 CREATE TABLE UPDATE_RESULT (	
+	result VARCHAR(20) NOT NULL CHECK (result IN('minor revision', 'major revision', 'acceptance','rejection')),
+	noti_date date NOT NULL, 
+	other_detail text , 
 	ban_bien_tap_ID BIGINT NOT NULL,
 	review_ID BIGINT NOT NULL,
+	UNIQUE(review_ID),
 	FOREIGN KEY (ban_bien_tap_ID) 
 		REFERENCES BAN_BIEN_TAP (ban_bien_tap_ID)
         ON DELETE NO ACTION
@@ -200,8 +188,9 @@ CREATE TABLE REVIEW_DIRECTING (
 CREATE TABLE REVIEWING (			
 	reviewer_ID BIGINT NOT NULL,
 	score int NOT NULL,
+	e_note text, a_note text,
 	review_ID BIGINT NOT NULL,
-    UNIQUE(reviewer_ID,score,review_ID),
+    UNIQUE(review_ID),
 	FOREIGN KEY (reviewer_ID) 
 		REFERENCES REVIEWER (reviewer_ID)
         ON DELETE NO ACTION
