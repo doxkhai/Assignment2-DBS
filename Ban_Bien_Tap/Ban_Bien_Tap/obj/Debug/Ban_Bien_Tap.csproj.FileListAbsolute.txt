@@ -9,3 +9,14 @@ D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.cspro
 D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.csproj.CoreCompileInputs.cache
 D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.exe
 D:\Github\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.pdb
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\bin\Debug\Ban_Bien_Tap.exe.config
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\bin\Debug\Ban_Bien_Tap.exe
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\bin\Debug\Ban_Bien_Tap.pdb
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.csproj.AssemblyReference.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.csproj.SuggestedBindingRedirects.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.Form1.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.Properties.Resources.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.csproj.GenerateResource.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.csproj.CoreCompileInputs.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.exe
+C:\Users\KHAI\Documents\Assignment2-DBS\Ban_Bien_Tap\Ban_Bien_Tap\obj\Debug\Ban_Bien_Tap.pdb

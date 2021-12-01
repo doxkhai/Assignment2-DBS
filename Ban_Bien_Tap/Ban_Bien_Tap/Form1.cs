@@ -13,7 +13,7 @@ namespace Ban_Bien_Tap
 {
     public partial class Form1 : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=Publication;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ILBOEHR\KHAI;Initial Catalog=Publication;Integrated Security=True");
         public Form1()
         {
             InitializeComponent();
@@ -55,7 +55,7 @@ namespace Ban_Bien_Tap
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "delete from BAN_BIEN_TAP where ban_bien_tap_ID = '" + textBox1.Text + "'";
+            cmd.CommandText = "delete from BAN_BIEN_TAP where ban_bien_tap_ID = '" + textBox1.Text + "';";
             cmd.ExecuteNonQuery();
             con.Close();
             display();
