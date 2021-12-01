@@ -9,14 +9,3 @@ D:\Github\Assignment2-DBS\Author\Author\obj\Debug\Author.csproj.GenerateResource
 D:\Github\Assignment2-DBS\Author\Author\obj\Debug\Author.csproj.CoreCompileInputs.cache
 D:\Github\Assignment2-DBS\Author\Author\obj\Debug\Author.exe
 D:\Github\Assignment2-DBS\Author\Author\obj\Debug\Author.pdb
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\bin\Debug\Author.exe.config
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\bin\Debug\Author.exe
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\bin\Debug\Author.pdb
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\obj\Debug\Author.csproj.AssemblyReference.cache
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\obj\Debug\Author.csproj.SuggestedBindingRedirects.cache
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\obj\Debug\Author.Form1.resources
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\obj\Debug\Author.Properties.Resources.resources
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\obj\Debug\Author.csproj.GenerateResource.cache
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\obj\Debug\Author.csproj.CoreCompileInputs.cache
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\obj\Debug\Author.exe
-C:\Users\KHAI\Documents\Assignment2-DBS\Author\Author\obj\Debug\Author.pdb
