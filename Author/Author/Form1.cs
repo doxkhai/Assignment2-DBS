@@ -13,7 +13,7 @@ namespace Author
 {
     public partial class Form1 : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=authorDetails;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=Publication;Integrated Security=True");
         public Form1()
         {
             InitializeComponent();
@@ -38,12 +38,12 @@ namespace Author
             con.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into AUTHOR values('"+textBox1.Text+"','"+textBox2.Text+"','"+textBox3.Text+"','"+textBox4.Text+"','"+textBox5.Text+"')";
+            cmd.CommandText = "insert into AUTHOR values('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "')";
             cmd.ExecuteNonQuery();
             con.Close();
             textBox1.Text = "";
@@ -60,7 +60,7 @@ namespace Author
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "delete from AUTHOR where author_ID = '"+textBox1.Text+"'";
+            cmd.CommandText = "delete from AUTHOR where author_ID = '" + textBox1.Text + "'";
             cmd.ExecuteNonQuery();
             con.Close();
             display();
@@ -72,7 +72,7 @@ namespace Author
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "update AUTHOR set author_ID = '"+textBox1.Text+ "', author_email = '" + textBox2.Text + "', a_address = '" + textBox3.Text + "', dept = '" + textBox4.Text + "', job = '" + textBox5.Text + "' where author_ID = '"+textBox1.Text+"'";
+            cmd.CommandText = "update AUTHOR set author_ID = '" + textBox1.Text + "', author_email = '" + textBox2.Text + "', a_address = '" + textBox3.Text + "', dept = '" + textBox4.Text + "', job = '" + textBox5.Text + "' where author_ID = '" + textBox1.Text + "'";
             cmd.ExecuteNonQuery();
             con.Close();
             display();
@@ -84,7 +84,7 @@ namespace Author
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from AUTHOR where author_ID ='"+textBox1.Text+"'";
+            cmd.CommandText = "select * from AUTHOR where author_ID ='" + textBox1.Text + "'";
             cmd.ExecuteNonQuery();
             DataTable dtb = new DataTable();
             SqlDataAdapter adpt = new SqlDataAdapter(cmd);
