@@ -39,7 +39,7 @@ namespace Publication
 
                         if (comboBox1.SelectedIndex == 0)
                         {
-                            MessageBox.Show("You are login as " + dt.Rows[i][2]);
+                            MessageBox.Show("Bạn đã đăng nhập với tư cách là " + dt.Rows[i][2]);
                             Tacgia newForm = new Tacgia();
                             newForm.Show();
                             this.Hide();
@@ -47,7 +47,7 @@ namespace Publication
 
                         else if (comboBox1.SelectedIndex == 1)
                         {
-                            MessageBox.Show("You are login as " + dt.Rows[i][2]);
+                            MessageBox.Show("Bạn đã đăng nhập với tư cách là " + dt.Rows[i][2]);
                             BBT newForm = new BBT();
                             newForm.Show();
                             this.Hide();
@@ -55,7 +55,7 @@ namespace Publication
 
                         else
                         {
-                            MessageBox.Show("You are login as " + dt.Rows[i][2]);
+                            MessageBox.Show("Bạn đã đăng nhập với tư cách là " + dt.Rows[i][2]);
                             NguoiPhanBien newForm = new NguoiPhanBien();
                             newForm.Show();
                             this.Hide();
@@ -66,8 +66,14 @@ namespace Publication
             }
             else
             {
-                MessageBox.Show("Account doesn't exist!");
+                MessageBox.Show("Tài khoản không tồn tại!");
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thoát chương trình ?");
+            Application.Exit();
         }
     }
 }

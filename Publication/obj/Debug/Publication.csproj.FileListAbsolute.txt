@@ -34,3 +34,9 @@ D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.Fo
 D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormXDSBBTML.resources
 D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormCNTTNPB.resources
 D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormCNPBNPB.resources
+D:\Github\Assignment2-DBS\Publication\obj\Debug\Publication.CapNhatThongTin.resources
+D:\Github\Assignment2-DBS\Publication\obj\Debug\Publication.Tacgia.resources
+D:\Github\Assignment2-DBS\Publication\obj\Debug\Publication.CapNhatBaiBao.resources
+D:\Github\Assignment2-DBS\Publication\obj\Debug\Publication.XemThongTinTacGia.resources
+D:\Github\Assignment2-DBS\Publication\obj\Debug\Publication.TrangThaiBaiBao.resources
+D:\Github\Assignment2-DBS\Publication\obj\Debug\Publication.XemKetQuaPhanBien.resources
