@@ -8,16 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
-namespace LoginForm
+namespace Publication
 {
-    public partial class Login : Form
+    public partial class LoginFORM : Form
     {
-        public Login()
+        public LoginFORM()
         {
             InitializeComponent();
         }
 
+        private void LoginFORM_Load(object sender, EventArgs e)
+        {
+
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ILBOEHR\KHAI;Initial Catalog=Publication;Integrated Security=True");
@@ -26,16 +29,18 @@ namespace LoginForm
             DataTable dt = new DataTable();
             sda.Fill(dt);
             string cmbItemValue = comboBox1.SelectedItem.ToString();
-            
-            if (dt.Rows.Count > 0) {
+
+            if (dt.Rows.Count > 0)
+            {
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
-                    if (dt.Rows[i]["usertype"].ToString() == cmbItemValue) {
-                        
+                    if (dt.Rows[i]["usertype"].ToString() == cmbItemValue)
+                    {
+
                         if (comboBox1.SelectedIndex == 0)
                         {
                             MessageBox.Show("You are login as " + dt.Rows[i][2]);
-                            Author newForm = new Author();
+                            Tacgia newForm = new Tacgia();
                             newForm.Show();
                             this.Hide();
                         }
@@ -43,7 +48,7 @@ namespace LoginForm
                         else if (comboBox1.SelectedIndex == 1)
                         {
                             MessageBox.Show("You are login as " + dt.Rows[i][2]);
-                            Ban_Bien_Tap newForm = new Ban_Bien_Tap();
+                            BBT newForm = new BBT();
                             newForm.Show();
                             this.Hide();
                         }
@@ -51,7 +56,7 @@ namespace LoginForm
                         else
                         {
                             MessageBox.Show("You are login as " + dt.Rows[i][2]);
-                            Nguoi_Phan_Bien newForm = new Nguoi_Phan_Bien();
+                            NguoiPhanBien newForm = new NguoiPhanBien();
                             newForm.Show();
                             this.Hide();
                         }
@@ -59,7 +64,8 @@ namespace LoginForm
                 }
 
             }
-            else {
+            else
+            {
                 MessageBox.Show("Account doesn't exist!");
             }
         }

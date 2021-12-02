@@ -12,3 +12,17 @@ D:\Test\LoginForm\LoginForm\obj\Debug\LoginForm.Ban_Bien_Tap.resources
 D:\Test\LoginForm\LoginForm\obj\Debug\LoginForm.Login.resources
 D:\Test\LoginForm\LoginForm\obj\Debug\LoginForm.Author.resources
 D:\Test\LoginForm\LoginForm\obj\Debug\LoginForm.Nguoi_Phan_Bien.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\bin\Debug\LoginForm.exe.config
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\bin\Debug\LoginForm.exe
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\bin\Debug\LoginForm.pdb
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.AssemblyReference.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.Ban_Bien_Tap.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.Nguoi_Phan_Bien.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.Login.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.Author.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.exe
+C:\Users\KHAI\Documents\Assignment2-DBS\LoginForm\LoginForm\obj\Debug\LoginForm.pdb

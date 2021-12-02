@@ -13,7 +13,7 @@ namespace LoginForm
 {
     public partial class Author : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=Publication;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ILBOEHR\KHAI;Initial Catalog=Publication;Integrated Security=True");
         public Author()
         {
             InitializeComponent();
@@ -43,7 +43,8 @@ namespace LoginForm
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into AUTHOR values('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "')";
+            if (textBox6.Text == "") cmd.CommandText = "insert into AUTHOR values('" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "',NULL)";
+            else cmd.CommandText = "insert into AUTHOR values('" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','"+ textBox6.Text +"')";
             cmd.ExecuteNonQuery();
             con.Close();
             textBox1.Text = "";
@@ -51,6 +52,7 @@ namespace LoginForm
             textBox3.Text = "";
             textBox4.Text = "";
             textBox5.Text = "";
+            textBox6.Text = "";
             display();
             MessageBox.Show("Insert Success!");
         }
@@ -72,7 +74,7 @@ namespace LoginForm
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "update AUTHOR set author_ID = '" + textBox1.Text + "', author_email = '" + textBox2.Text + "', a_address = '" + textBox3.Text + "', dept = '" + textBox4.Text + "', job = '" + textBox5.Text + "' where author_ID = '" + textBox1.Text + "'";
+            cmd.CommandText = "update AUTHOR set author_ID = '" + textBox1.Text + "', author_email = '" + textBox2.Text + "', a_address = '" + textBox3.Text + "', dept = '" + textBox4.Text + "', job = '" + textBox5.Text + "', reviewer_ID ='"+ textBox6.Text+"' where author_ID = '" + textBox1.Text + "'";
             cmd.ExecuteNonQuery();
             con.Close();
             display();

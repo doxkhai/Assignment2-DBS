@@ -13,7 +13,7 @@ namespace LoginForm
 {
     public partial class Ban_Bien_Tap : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=Publication;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ILBOEHR\KHAI;Initial Catalog=Publication;Integrated Security=True");
         public Ban_Bien_Tap()
         {
             InitializeComponent();
