@@ -161,7 +161,7 @@ CREATE TABLE REVIEWING (
 
 CREATE TABLE USERINFO (
 	username varchar(50) ,
-	u_password varchar(50) ,
+	pass varchar(50) ,
 	usertype varchar(50) ,
 );
 
