@@ -52,6 +52,54 @@
     <Compile Include="BBT.Designer.cs">
       <DependentUpon>BBT.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormXTBBB5N.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXTBBB5N.Designer.cs">
+      <DependentUpon>FormXTBBB5N.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormX3BB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormX3BB.Designer.cs">
+      <DependentUpon>FormX3BB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormXKQPBBBNN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXKQPBBBNN.Designer.cs">
+      <DependentUpon>FormXKQPBBBNN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormXDSTGNBBPBN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXDSTGNBBPBN.Designer.cs">
+      <DependentUpon>FormXDSTGNBBPBN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormXDSBBTG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXDSBBTG.Designer.cs">
+      <DependentUpon>FormXDSBBTG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormXDSBBTML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXDSBBTML.Designer.cs">
+      <DependentUpon>FormXDSBBTML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCNTTNPB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCNTTNPB.Designer.cs">
+      <DependentUpon>FormCNTTNPB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCNPBNPB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCNPBNPB.Designer.cs">
+      <DependentUpon>FormCNPBNPB.cs</DependentUpon>
+    </Compile>
     <Compile Include="NguoiPhanBien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +134,33 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BBT.resx">
       <DependentUpon>BBT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXTBBB5N.resx">
+      <DependentUpon>FormXTBBB5N.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormX3BB.resx">
+      <DependentUpon>FormX3BB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXKQPBBBNN.resx">
+      <DependentUpon>FormXKQPBBBNN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXDSTGNBBPBN.resx">
+      <DependentUpon>FormXDSTGNBBPBN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXDSBBTG.resx">
+      <DependentUpon>FormXDSBBTG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXDSBBTML.resx">
+      <DependentUpon>FormXDSBBTML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCNTTNPB.resx">
+      <DependentUpon>FormCNTTNPB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCNPBNPB.resx">
+      <DependentUpon>FormCNPBNPB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NguoiPhanBien.resx">
+      <DependentUpon>NguoiPhanBien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PCPB.resx">
       <DependentUpon>PCPB.cs</DependentUpon>

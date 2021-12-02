@@ -12,3 +12,25 @@ C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.pdb
 C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.FormDSBB.resources
 C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.BBT.resources
 C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.LoginFORM.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\bin\Debug\Publication.exe.config
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\bin\Debug\Publication.exe
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\bin\Debug\Publication.pdb
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.csprojAssemblyReference.cache
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.BBT.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormPCPB.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormDSBB.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.LoginFORM.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.Properties.Resources.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.csproj.GenerateResource.cache
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.csproj.CoreCompileInputs.cache
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.exe
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.pdb
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.NguoiPhanBien.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormXTBBB5N.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormX3BB.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormXKQPBBBNN.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormXDSTGNBBPBN.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormXDSBBTG.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormXDSBBTML.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormCNTTNPB.resources
+D:\CS.HCMUT\Database System\Assignment2-DBS\Publication\obj\Debug\Publication.FormCNPBNPB.resources

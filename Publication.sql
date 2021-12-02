@@ -164,5 +164,3 @@ CREATE TABLE USERINFO (
 	pass varchar(50) ,
 	usertype varchar(50) ,
 );
-
-DROP TABLE REVIEW;
