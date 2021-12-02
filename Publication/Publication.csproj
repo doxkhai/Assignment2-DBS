@@ -52,6 +52,36 @@
     <Compile Include="BBT.Designer.cs">
       <DependentUpon>BBT.cs</DependentUpon>
     </Compile>
+    <Compile Include="CapNhatThongTin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhatThongTin.Designer.cs">
+      <DependentUpon>CapNhatThongTin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapNhatBaiBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhatBaiBao.Designer.cs">
+      <DependentUpon>CapNhatBaiBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XemKetQuaPhanBien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XemKetQuaPhanBien.Designer.cs">
+      <DependentUpon>XemKetQuaPhanBien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrangThaiBaiBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrangThaiBaiBao.Designer.cs">
+      <DependentUpon>TrangThaiBaiBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XemThongTinTacGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XemThongTinTacGia.Designer.cs">
+      <DependentUpon>XemThongTinTacGia.cs</DependentUpon>
+    </Compile>
     <Compile Include="NguoiPhanBien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,8 +117,26 @@
     <EmbeddedResource Include="BBT.resx">
       <DependentUpon>BBT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CapNhatThongTin.resx">
+      <DependentUpon>CapNhatThongTin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapNhatBaiBao.resx">
+      <DependentUpon>CapNhatBaiBao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XemKetQuaPhanBien.resx">
+      <DependentUpon>XemKetQuaPhanBien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrangThaiBaiBao.resx">
+      <DependentUpon>TrangThaiBaiBao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XemThongTinTacGia.resx">
+      <DependentUpon>XemThongTinTacGia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PCPB.resx">
       <DependentUpon>PCPB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tacgia.resx">
+      <DependentUpon>Tacgia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XemDSBB.resx">
       <DependentUpon>XemDSBB.cs</DependentUpon>
