@@ -1,6 +1,6 @@
 ﻿namespace Publication
 {
-    partial class FormCNPBNPB
+    partial class TongBB
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // FormCNPBNPB
+            // TongBB
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "FormCNPBNPB";
-            this.Text = "FormCNPBNPB";
+            this.ClientSize = new System.Drawing.Size(857, 534);
+            this.Name = "TongBB";
+            this.Text = "TongBB";
             this.ResumeLayout(false);
 
         }

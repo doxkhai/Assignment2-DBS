@@ -39,6 +39,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,11 +141,22 @@
             this.textBox3.Size = new System.Drawing.Size(130, 31);
             this.textBox3.TabIndex = 10;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(22, 14);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(115, 43);
+            this.button5.TabIndex = 11;
+            this.button5.Text = "BACK";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // FormPCPB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(827, 482);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridView1);
@@ -177,5 +189,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button button5;
     }
 }

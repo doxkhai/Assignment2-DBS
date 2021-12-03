@@ -11,17 +11,12 @@ using System.Data.SqlClient;
 
 namespace Publication
 {
-    public partial class XemKetQuaPhanBien : Form
+    public partial class U_TTXL : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=Publication;Integrated Security=True");
-        public XemKetQuaPhanBien()
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ILBOEHR\KHAI;Initial Catalog=Publication;Integrated Security=True");
+        public U_TTXL()
         {
             InitializeComponent();
-        }
-
-        private void XemKetQuaPhanBien_Load(object sender, EventArgs e)
-        {
-            display();
         }
 
         public void display()
@@ -29,21 +24,7 @@ namespace Publication
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select article_ID, result from REVIEW";
-            cmd.ExecuteNonQuery();
-            DataTable dtb = new DataTable();
-            SqlDataAdapter adpt = new SqlDataAdapter(cmd);
-            adpt.Fill(dtb);
-            dataGridView1.DataSource = dtb;
-            con.Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            con.Open();
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select result from REVIEW where article_ID ='" + textBox1.Text + "'";
+            cmd.CommandText = "select * from ARTICLE";
             cmd.ExecuteNonQuery();
             DataTable dtb = new DataTable();
             SqlDataAdapter adpt = new SqlDataAdapter(cmd);
@@ -54,9 +35,26 @@ namespace Publication
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Tacgia newForm = new Tacgia();
-            newForm.Show();
+            BBT bBT = new BBT();
             this.Hide();
+            bBT.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "update ARTICLE set p_status = '"+ comboBox1.SelectedItem.ToString() +"' where article_ID = '"+ textBox1.Text +"'";
+            cmd.ExecuteNonQuery();
+            con.Close();
+            display();
+            textBox1.Text = "";
+        }
+
+        private void U_TTXL_Load(object sender, EventArgs e)
+        {
+            display();
         }
     }
 }

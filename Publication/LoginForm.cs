@@ -23,7 +23,11 @@ namespace Publication
         }
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
             SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=Publication;Integrated Security=True");
+=======
+            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ILBOEHR\KHAI;Initial Catalog=Publication;Integrated Security=True");
+>>>>>>> Stashed changes
             SqlCommand cmd = new SqlCommand("select * from USERINFO where username = '" + textBox1.Text + "' and pass = '" + textBox2.Text + "'", con);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
@@ -39,7 +43,7 @@ namespace Publication
 
                         if (comboBox1.SelectedIndex == 0)
                         {
-                            MessageBox.Show("Bạn đã đăng nhập với tư cách là " + dt.Rows[i][2]);
+                            MessageBox.Show("You are login as " + dt.Rows[i][2]);
                             Tacgia newForm = new Tacgia();
                             newForm.Show();
                             this.Hide();
@@ -47,7 +51,7 @@ namespace Publication
 
                         else if (comboBox1.SelectedIndex == 1)
                         {
-                            MessageBox.Show("Bạn đã đăng nhập với tư cách là " + dt.Rows[i][2]);
+                            MessageBox.Show("You are login as " + dt.Rows[i][2]);
                             BBT newForm = new BBT();
                             newForm.Show();
                             this.Hide();
@@ -55,7 +59,7 @@ namespace Publication
 
                         else
                         {
-                            MessageBox.Show("Bạn đã đăng nhập với tư cách là " + dt.Rows[i][2]);
+                            MessageBox.Show("You are login as " + dt.Rows[i][2]);
                             NguoiPhanBien newForm = new NguoiPhanBien();
                             newForm.Show();
                             this.Hide();
@@ -66,14 +70,8 @@ namespace Publication
             }
             else
             {
-                MessageBox.Show("Tài khoản không tồn tại!");
+                MessageBox.Show("Account doesn't exist!");
             }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Thoát chương trình ?");
-            Application.Exit();
         }
     }
 }

@@ -17,7 +17,7 @@ CREATE TABLE ARTICLE(
 	file_bb varchar(255), 
 	p_status varchar(255), 
 	title varchar(255), 
-	result varchar(20),
+	a_type varchar(20),
 	keyword char(10),
     send_date date ,
     cAuthor_ID BIGINT ,
@@ -58,6 +58,8 @@ CREATE TABLE REVIEW(
 		REFERENCES ARTICLE(article_ID),
 	FOREIGN KEY(reviewer_ID)
 		REFERENCES REVIEWER(reviewer_ID)
+		ON DELETE CASCADE,
+		ON UPDATE CASCADE
 );
 ALTER TABLE ARTICLE 
 ADD FOREIGN KEY(review_ID) 
@@ -105,8 +107,6 @@ CREATE TABLE RESEARCH (
     UNIQUE(article_ID),
 	FOREIGN KEY (article_ID) 
 		REFERENCES ARTICLE (article_ID)
-        ON DELETE CASCADE
-        ON UPDATE CASCADE
 );
 
 
@@ -116,8 +116,6 @@ CREATE TABLE OVERVIEW (
     UNIQUE(article_ID),
 	FOREIGN KEY (article_ID) 
 		REFERENCES ARTICLE (article_ID)
-		ON DELETE CASCADE
-        ON UPDATE CASCADE
 );
 
 
@@ -134,8 +132,6 @@ CREATE TABLE BOOK_REVIEW (
     PRIMARY KEY (ISBN),
 	FOREIGN KEY (article_ID) 
 		REFERENCES ARTICLE (article_ID)
-        ON DELETE CASCADE
-        ON UPDATE CASCADE
 );
 
 
@@ -147,12 +143,10 @@ CREATE TABLE REVIEWING (
     UNIQUE(review_ID),
 	FOREIGN KEY (reviewer_ID) 
 		REFERENCES REVIEWER (reviewer_ID)
-        ON DELETE NO ACTION
+        ON DELETE CASCADE
         ON UPDATE CASCADE,
 	FOREIGN KEY (review_ID) 
-		REFERENCES REVIEW (review_ID)
-		ON DELETE NO ACTION
-        ON UPDATE CASCADE,
+		REFERENCES REVIEW (review_ID),
 	FOREIGN KEY (score) 
 		REFERENCES REVIEW_CRITERIA (score)
         ON DELETE NO ACTION
@@ -165,4 +159,10 @@ CREATE TABLE USERINFO (
 	usertype varchar(50) ,
 );
 
+<<<<<<< Updated upstream
 ALTER TABLE ARTICLE ADD sent_status BIT;
+=======
+
+
+
+>>>>>>> Stashed changes

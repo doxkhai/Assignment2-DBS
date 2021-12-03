@@ -61,12 +61,12 @@ namespace Publication
                 cmd.CommandType = CommandType.Text;
                 cmd.CommandText = "insert into REVIEW(article_ID,reviewer_ID) values('" + textBox3.Text + "','" + textBox2.Text + "');";
                 cmd.ExecuteNonQuery();
-                cmd.CommandText = "select * from REVIEW";
+                cmd.CommandText = "select * from REVIEW where article_ID = '" + textBox3.Text + "'";
                 cmd.ExecuteNonQuery();
                 DataTable dtb = new DataTable();
                 SqlDataAdapter adpt = new SqlDataAdapter(cmd);
                 adpt.Fill(dtb);
-                cmd.CommandText = "update ARTICLE SET review_ID = '" + dtb.Rows[0][0] +"'";
+                cmd.CommandText = "update ARTICLE SET review_ID = '" + dtb.Rows[0][0] +"' where article_ID = '"+ textBox3.Text +"'";
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Insert Success!");
             }
@@ -120,6 +120,13 @@ namespace Publication
             adpt.Fill(dtb);
             dataGridView1.DataSource = dtb;
             con.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            BBT bBT = new BBT();
+            bBT.Show();
         }
     }
 }

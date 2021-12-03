@@ -12,6 +12,7 @@ C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.pdb
 C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.FormDSBB.resources
 C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.BBT.resources
 C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.LoginFORM.resources
+<<<<<<< Updated upstream
 D:\Github\Assignment2-DBS\Publication\bin\Debug\Publication.exe.config
 D:\Github\Assignment2-DBS\Publication\bin\Debug\Publication.exe
 D:\Github\Assignment2-DBS\Publication\bin\Debug\Publication.pdb
@@ -32,3 +33,27 @@ D:\Github\Assignment2-DBS\Publication\obj\Debug\Publication.CapNhatBaiBao.resour
 D:\Github\Assignment2-DBS\Publication\obj\Debug\Publication.XemThongTinTacGia.resources
 D:\Github\Assignment2-DBS\Publication\obj\Debug\Publication.TrangThaiBaiBao.resources
 D:\Github\Assignment2-DBS\Publication\obj\Debug\Publication.XemKetQuaPhanBien.resources
+=======
+C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.U_TTXL.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.U_KQPB.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.XemDSBB_TG.resources
+C:\Users\KHAI\Documents\Assignment2-DBS\Publication\obj\Debug\Publication.TongBB.resources
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\bin\Debug\Publication.exe.config
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\bin\Debug\Publication.exe
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\bin\Debug\Publication.pdb
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.csproj.AssemblyReference.cache
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.csproj.SuggestedBindingRedirects.cache
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.BBT.resources
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.FormPCPB.resources
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.TongBB.resources
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.U_KQPB.resources
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.U_TTXL.resources
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.FormDSBB.resources
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.LoginFORM.resources
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.Properties.Resources.resources
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.XemDSBB_TG.resources
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.csproj.GenerateResource.cache
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.csproj.CoreCompileInputs.cache
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.exe
+C:\Users\KHAI\Documents\Assignment2-DBS - Copy\Publication\obj\Debug\Publication.pdb
+>>>>>>> Stashed changes

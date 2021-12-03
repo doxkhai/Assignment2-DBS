@@ -87,7 +87,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "author",
+            "tac gia",
             "ban bien tap",
             "nguoi phan bien"});
             this.comboBox1.Location = new System.Drawing.Point(480, 317);

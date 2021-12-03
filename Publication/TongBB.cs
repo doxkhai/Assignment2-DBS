@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Publication
 {
-    public partial class FormCNPBNPB : Form
+    public partial class TongBB : Form
     {
-        public FormCNPBNPB()
+        public TongBB()
         {
             InitializeComponent();
         }

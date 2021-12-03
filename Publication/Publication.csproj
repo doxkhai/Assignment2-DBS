@@ -52,6 +52,7 @@
     <Compile Include="BBT.Designer.cs">
       <DependentUpon>BBT.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="CapNhatThongTin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +83,8 @@
     <Compile Include="XemThongTinTacGia.Designer.cs">
       <DependentUpon>XemThongTinTacGia.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> Stashed changes
     <Compile Include="NguoiPhanBien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +103,24 @@
     <Compile Include="Tacgia.Designer.cs">
       <DependentUpon>Tacgia.cs</DependentUpon>
     </Compile>
+    <Compile Include="TongBB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TongBB.Designer.cs">
+      <DependentUpon>TongBB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="U_KQPB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="U_KQPB.Designer.cs">
+      <DependentUpon>U_KQPB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="U_TTXL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="U_TTXL.Designer.cs">
+      <DependentUpon>U_TTXL.cs</DependentUpon>
+    </Compile>
     <Compile Include="XemDSBB.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,9 +135,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XemDSBB_TG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XemDSBB_TG.Designer.cs">
+      <DependentUpon>XemDSBB_TG.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BBT.resx">
       <DependentUpon>BBT.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< Updated upstream
     <EmbeddedResource Include="CapNhatThongTin.resx">
       <DependentUpon>CapNhatThongTin.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,11 +160,19 @@
     <EmbeddedResource Include="XemThongTinTacGia.resx">
       <DependentUpon>XemThongTinTacGia.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> Stashed changes
     <EmbeddedResource Include="PCPB.resx">
       <DependentUpon>PCPB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tacgia.resx">
-      <DependentUpon>Tacgia.cs</DependentUpon>
+    <EmbeddedResource Include="TongBB.resx">
+      <DependentUpon>TongBB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="U_KQPB.resx">
+      <DependentUpon>U_KQPB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="U_TTXL.resx">
+      <DependentUpon>U_TTXL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XemDSBB.resx">
       <DependentUpon>XemDSBB.cs</DependentUpon>
@@ -153,6 +189,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="XemDSBB_TG.resx">
+      <DependentUpon>XemDSBB_TG.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
