@@ -13,7 +13,7 @@ namespace Publication
 {
     public partial class FormPCPB : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=TUFLAP-HVT;Initial Catalog=Publication;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ILBOEHR\KHAI;Initial Catalog=Publication;Integrated Security=True");
         public FormPCPB()
         {
             InitializeComponent();

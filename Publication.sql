@@ -165,6 +165,4 @@ CREATE TABLE USERINFO (
 	usertype varchar(50) ,
 );
 
-
 ALTER TABLE ARTICLE ADD sent_status BIT;
-

@@ -23,7 +23,7 @@ namespace Publication
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=TUFLAP-HVT;Initial Catalog=Publication;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=Publication;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("select * from USERINFO where username = '" + textBox1.Text + "' and pass = '" + textBox2.Text + "'", con);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
